@@ -32,16 +32,14 @@ django version: 1.10.1
 물품 아이디는 `Math.floor(Date.now() / 1000)` 로 타임스탬프 찍는다.
 ```json
 {
-  username: 'foo'
-  product_list: [
-     {
-      url: 'http://www.gsshop.com/prd/prd.gs?prdid=24926497',
-      title: '[더망고] 필리핀 카라바오 망고 5kg 20과',
-      price: 38900,
-      shop: 'GSSHOP',
-      img: 'http://image.gsshop.com/image/24/92/24926497_L1.jpg',
-      timestamp: '1492327941'
-    }
-  ]
+  "username": "foo",
+  "product_list": [{
+    "url": "http://www.gsshop.com/prd/prd.gs?prdid=24926497",
+    "title": "[더망고] 필리핀 카라바오 망고 5kg 20과",
+    "price": 38900,
+    "shop": "GSSHOP",
+    "img": "http://image.gsshop.com/image/24/92/24926497_L1.jpg",
+    "timestamp": "1492327941"
+  }]
 }
 ```
